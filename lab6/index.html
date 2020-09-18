@@ -1,11 +1,76 @@
-<!DOCTYPE html>
-<html>
+<title>Lab 6: More Complicated HTML</title>
+ <link rel="stylesheet" type="text/css" href="css/index.css">
+<div id= "content">
 <head>
-	<title>Lab X - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
-</head>
-<body>
+	<h1>Lab 6: More Complicated HTML</h1>
+		<img src= "img/lab6-selfie.jpg" width= "350" height= "350">
+<br>
+		<h2>Purpose</h2>
+			<p>The idea of this lab is to become familiar with "div", learn how to create different
+				 types of forms such as textboxes, passwords, select, radios, and checkboxes along with a submit button,
+	  		 introduce yourself to css files and linking them within your website,
+				 and as always testing your files locally before uploading them to the server.</p>
+	<h2>Challenges</h2>
+			<p>The main challenges I encountered involved the radio vs. checkbox insertions from forms. I was able to
+				 get them working correctly, but I decided to change the order and once I did that the radio buttons would no
+			   longer appear. After looking over my code, I realized I did not include the input type tags, so once I resolved
+			 	 this issue it worked. What I am currently battling with now is a radio button appearing next to my "Select Your Language"
+			 	 selection boxes. Monica and I looked over my code and are unable to find the issue. I would also like to find out how
+			 the height of the border through the css can be manually sized depending on the amount of text or zooming in/out rather
+			 than changing the #vh.</p>
+	<h2>Results:</h2>
+	<h4>We are looking at my results!</h4>
+			<p>I was successfully able to input an image, create the forms and have all of them work correctly, and begin
+				 to understand the css stylesheet as well as embed it into my code which can be seen on my website, thank you
+			 	 Wes for starting the index.css for us as from there I knew what to do. I also added centering for my text as
+				 well as image, but I would like to know how to indent the centered lists towards the left so they look more balanced
+				 when centered due to being different lengths.</p>
 
-</body>
-</html>
+	<h3>Search</h3>
+		<form action= "https://google.com/search" method= "GET"
+		target= "_blank"
+
+  <h2>Your Full Name:</h2> <br>
+		<input type= "text" name= "q"/><br>
+<br>
+	Password: <br>
+		<input type= "password" name="password"/><br>
+<br>
+	Your Preferred Language:<br>
+		<select name="language">
+	<option disabled selected>Select your Language</option>
+	<option value= "en">English</option>
+	<option value= "es">Spanish</option>
+	<option value= "fr">French</option>
+	<option value= "ja">Japanese</option>
+<br>
+	<input type= "radio" name= "q"/><br>
+<br>
+	Are you a college student?<br>
+<br>
+	<label><input type= "radio" name= "student" value="yes">
+		Yes</label><br>
+		<label><input type= "radio" name= "student" value="no">
+			No</label><br>
+<br>
+	If not, what majors are you interested in?
+<br>
+<br>
+	<label><input type= "checkbox" name= "major"/>
+		Biology</label><br>
+	<label><input type= "checkbox" name= "major"/>
+		Business</label><br>
+	<label><input type= "checkbox" name= "major"/>
+		Cinematic Arts</label><br>
+	<label><input type= "checkbox" name= "major"/>
+		Communication Design</label><br>
+	<label><input type= "checkbox" name= "major"/>
+		Marine Science</label><br>
+	<label><input type= "checkbox" name= "major"/>
+		Psychology</label><br>
+<br>
+	<input type="submit">
+<br>
+<br>
+<br>
+	<a href="../index.html">Back to my Homepage</a>
