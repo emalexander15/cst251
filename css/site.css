@@ -51,10 +51,12 @@ div#labs {
   color: #FFE4E1;
 }
 
-div#images2 {
-  width: 100px;
-  height: auto;
-  border: solid 5px #BC8F8F
+div#image {
+  background-color: #BC8F8F;
+  width: 445px;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
