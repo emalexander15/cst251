@@ -1,21 +1,15 @@
 body {
-    font-family: "Courier New", Courier, "monospace";
+    font-family: "Didot", didot;
     background-color: #FFE4E1;
     color: #BC8F8F;
     padding: 25px;
-    font-size: 100%;
+    font-size: 110%;
     text-align: center;
 
 }
 
-div#content {
-    padding: 50px;
-    background-color: #FFE4E1;
-    border: solid 3px #BC8F8F;
-}
-
 h1, h2, h3 {
-    font-family: "Courier New", monospace;
+    font-family: "Didot", didot;
 }
 
 img {
@@ -24,7 +18,54 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    border: solid 15px #FFE4E1
+}
+
+div#image {
+  background-color: #BC8F8F;
+  width: 390px;
+  height: 375px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#content {
+  border: solid 6px #BC8F8F;
+  margin: 50px
+  padding: 50px
+}
+
+div#purpose {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+    color: #FFE4E1;
+    border: double 15px #FFE4E1;
+  }
+
+div#challenges {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFE4E1;
+    color: #BC8F8F;
+    border: solid 6px #BC8F8F;
+}
+
+div#results {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+    color: #FFE4E1;
+    border: double 15px #FFE4E1;
 }
 
 a {
