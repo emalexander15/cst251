@@ -3,45 +3,63 @@ body {
     background-color: #FFE4E1;
     color: #BC8F8F;
     padding: 25px;
-    font-size: 100%;
+    font-size: 110%;
     text-align: center;
-
 }
-
-
-div#purpose {
-    padding: 50px;
-    background-color: #7E6B6F;
-    color: #FFE4E1;
-    border: double 10px #FFE4E1;
-}
-
-div#challenges {
-    padding: 50px;
-    background-color: #FFE4E1;
-    color: #7E6B6F;
-    border: solid 3px #7E6B6F;
-}
-
-div#results {
-    padding: 50px;
-    background-color: #7E6B6F;
-    color: #FFE4E1;
-    border: double 10px #FFE4E1;
-}
-
 
 h1, h2, h3 {
     font-family: "Didot", didot;
 }
 
 img {
-    width: 700px;
+    width: 500px;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: solid 15px #FFE4E1
   }
+
+
+div#content {
+  border: solid 6px #BC8F8F;
+  margin: 50px
+  padding: 50px
+}
+
+div#purpose {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+    color: #FFE4E1;
+    border: double 15px #FFE4E1;
+  }
+
+div#challenges {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFE4E1;
+    color: #BC8F8F;
+    border: solid 6px #BC8F8F;
+}
+
+div#results {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+    color: #FFE4E1;
+    border: double 15px #FFE4E1;
+}
+
 
 img:hover {
   width: 1000px;
@@ -55,5 +73,5 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    text-decoration-style: double;
+    text-decoration-style: wavy;
 }
