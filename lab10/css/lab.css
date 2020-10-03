@@ -1,0 +1,65 @@
+body {
+    font-family: "Arial", Helvetica, sans-serif;
+    background-color: #FFE4E1;
+    color: #BC8F8F;
+    padding: 25px;
+    font-size: 110%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h1, h2, h3 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+
+
+div#content {
+  border: solid 6px #BC8F8F;
+  margin: 50px
+  padding: 50px
+}
+
+div#purpose {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+    color: #f5efef;
+    border: double 15px #FFE4E1;
+  }
+
+div#challenges {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFE4E1;
+    color: ##b38080;
+    border: solid 6px #BC8F8F;
+}
+
+div#results {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+    color: #f5efef;
+    border: double 15px #FFE4E1;
+}
+
+a {
+    text-decoration: none;
+    color: #BC8F8F;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
