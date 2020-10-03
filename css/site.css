@@ -5,11 +5,13 @@ body {
     padding: 25px;
     font-size: 130%;
     text-align: center;
+    letter-spacing: 1px;
 
 }
 
 h1, h2, h3 {
     font-family: "Didot", didot;
+    letter-spacing: 15px;
 }
 
 img {
