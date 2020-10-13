@@ -1,0 +1,107 @@
+body {
+    font-family: "Didot", didot;
+    padding: 25px;
+    font-size: 110%;
+    text-align: center;
+    background-color: #FFE4E1;
+    color: #BC8F8F;
+}
+
+h1, h2, h3 {
+    font-family: "Didot", didot;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+img {
+    width: 360px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 15px #FFE4E1
+  }
+
+div#content {
+    padding: 50px;
+    margin: 50px;
+    border: solid 6px #BC8F8F;
+}
+
+div#purpose {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+    color: #FFE4E1;
+    border: double 15px #FFE4E1;
+  }
+
+div#challenges {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFE4E1;
+    color: #BC8F8F;
+    border: solid 6px #BC8F8F;
+}
+
+div#results {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+    color: #FFE4E1;
+    border: double 15px #FFE4E1;
+}
+
+.center-div {
+    width: 30%;
+    height: 550px;
+    border: solid 3px #BC8F8F;
+}
+
+.center-div img {
+    width: 150px;
+    height: 250;
+}
+
+div#floated {
+    float: right;
+    text-align: right;
+}
+
+div#center-horz {
+    text-align: center;
+}
+
+div#center-img {
+    text-align: center;
+}
+
+div#center-both {
+    position: relative;
+}
+
+div#center-both img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none;
+    color: #BC8F8F;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
