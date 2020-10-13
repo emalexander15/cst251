@@ -63,7 +63,7 @@ div#results {
 
 .center-div {
     width: 30%;
-    height: 550px;
+    height: 500px;
     border: solid 3px #BC8F8F;
 }
 
@@ -94,6 +94,35 @@ div#center-both img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+div#bonus {
+    width: 30%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    float: right;
+    text-align: center;
+    border: solid 3px #BC8F8F;
+}
+
+div#bonus img {
+    width: 300%;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#original {
+    width: 30%;
+    height: 500px;
+    border: solid 3px #BC8F8F;
+}
+
+
+div#original img {
+  width: 230px;
+  height: auto;
 }
 
 a {
