@@ -1,0 +1,48 @@
+body, html {
+  background-image: url("https://images.unsplash.com/photo-1504750702121-4dc5b9a09402?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div#link1 {
+  font-family: "Playfair Display", serif;
+  font-size: 200%;
+  top: 0;
+  float: left;
+  width: 300px;
+  margin: 30px;
+}
+
+div#link2 {
+  font-family: "Playfair Display", serif;
+  font-size: 200%;
+  top: 0;
+  float: right;
+  margin: 30px;
+}
+
+div#date {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 4200%;
+  font-weight: 900;
+  letter-spacing: -50px;
+  margin: 50px;
+  color: #000000;
+}
+
+div#paragraph {
+  font-family: "Playfair Display", serif;
+  color: #ffffff;
+  margin: 100px;
+  font-size: 250%;
+  float: left;
+  width: 1400px;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
