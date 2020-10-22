@@ -1,0 +1,130 @@
+body {
+    font-family: "Didot", didot;
+    padding: 25px;
+    font-size: 110%;
+    text-align: center;
+    color: #BC8F8F;
+}
+
+h1, h2, h3 {
+    font-family: "Didot", didot;
+    text-transform: uppercase;
+}
+
+img {
+    width: 360px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+div#image {
+    width: 360px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+}
+
+div#content {
+    border: solid 6px #BC8F8F;
+    margin: 50px
+    padding: 50px
+}
+
+div#purpose {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+    color: #FFE4E1;
+    border: double 15px #FFE4E1;
+  }
+
+div#challenges {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFE4E1;
+    color: #BC8F8F;
+}
+
+div#results {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+    color: #FFE4E1;
+    border: double 15px #FFE4E1;
+  }
+
+a {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #BC8F8F;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+/*----------------------------------------------*/
+
+/* text-shadow */
+div#title {
+    text-shadow: -10px 0 white,
+    0 10px white, 10px 0 white, 0 -10px white;
+}
+
+/* box shadow */
+div#purpose {
+    box-shadow: -5px -5px 15px #BC8F8F;
+  }
+
+div#results {
+    box-shadow: 5px 5px 15px #BC8F8F;
+}
+
+/* gradient */
+body {
+    background-image: linear-gradient(#FFE4E1, white);
+}
+
+/* filters */
+img {
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: blur(3px);
+}
+
+/* rounded corners */
+div#challenges {
+    border-radius: 25px;
+    border: solid 6px #BC8F8F;
+}
+
+/* object-fit */
+img {
+    width: 350px;
+    height:500px;
+    object-fit: cover;
+}
+
+/* transform */
+img {
+    transform: rotate(-25deg);
+}
+
+div#image {
+    transform: rotate(15deg);
+}
