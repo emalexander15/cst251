@@ -1,0 +1,40 @@
+body, html {
+  background-image: url("../img/fakeweb.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  width: 50px;
+  height: auto;
+  top: 0;
+  margin: 30px;
+  }
+
+div#name {
+  font-family: "Arial Bold";
+  font-size: 75%;
+  top: 0;
+  float: right;
+  margin: 30px;
+  color: #ffffff;
+}
+
+div#paragraph {
+  font-family: "Arial";
+  color: #ffffff;
+  font-size: 265%;
+  width: 830px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 35%;
+  line-height: 65px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
