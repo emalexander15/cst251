@@ -70,3 +70,7 @@ a:hover {
     text-decoration: underline;
     text-decoration-style: wavy;
 }
+
+img:hover {
+    filter: blur(3px);
+}
