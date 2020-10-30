@@ -1,0 +1,136 @@
+body {
+    font-family: "Didot", didot;
+    padding: 25px;
+    font-size: 110%;
+    text-align: center;
+    background-color: #FFE4E1;
+    color: #BC8F8F;
+}
+
+h1, h2, h3 {
+    font-family: "Didot", didot;
+    text-transform: uppercase;
+}
+
+img {
+    width: 360px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border: solid 10px #FFE4E1;
+  }
+
+div#image {
+    width: 390px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+  }
+
+div#content {
+    border: solid 6px #BC8F8F;
+    margin: 50px
+    padding: 50px
+}
+
+div#purpose {
+    padding: 50px;
+    width: 800px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+    color: #FFE4E1;
+    border: double 15px #FFE4E1;
+  }
+
+div#challenges {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #BC8F8F;
+    border: solid 6px #BC8F8F;
+}
+
+div#results {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BC8F8F;
+    color: #FFE4E1;
+    border: double 15px #FFE4E1;
+}
+
+div#animation {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: auto;
+  background-color: #BC8F8F;
+  animation-name: first;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+a {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #BC8F8F;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+/* ------------------------------- */
+
+/* more backgrounds */
+div#challenges {
+  background: url(https://64.media.tumblr.com/75ea25c937ffc4ebca8d0dab8b698332/a990be5e34a6a3c0-95/s250x400/c74da490dc3fd01631aef65f261bf28fa5bb915f.gifv);
+  text-shadow: 1px 2px black;
+}
+
+/* transitions */
+div#title {
+  margin-left: auto;
+  margin-right: auto;
+  transition: all .2s ease-in-out;
+}
+
+div#title:hover {
+   transform: scale(2.5);
+}
+
+div#look {
+  width: 400px;
+  height: auto;
+  transition: width 1s;
+}
+
+div#look:hover {
+  width: 800px;
+}
+
+/* animation */
+@keyframes first {
+  0% {background-color: #BC8F8F;}
+  25% {background-color: #FFE4E1;}
+  50% {background-color: #FFE4E1;}
+  100% {background-color: #BC8F8F;}
+}
+
+/* columns */
+div#columns {
+  column-count: 3;
+  column-gap: 3px;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+}
