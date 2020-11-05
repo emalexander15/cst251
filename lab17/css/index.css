@@ -1,0 +1,34 @@
+header {
+  border: solid 3px black;
+}
+
+footer {
+  border: solid 3px black;
+}
+
+nav {
+  border: solid 3px black;
+}
+
+main {
+  border: solid 3px black;  
+}
+
+section {
+  border: solid 3px black;
+}
+
+aside {
+  border: solid 3px black;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px pink;
+}
