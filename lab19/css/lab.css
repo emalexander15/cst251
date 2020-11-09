@@ -1,0 +1,54 @@
+body {
+  font-family: "Didot";
+  font-size: 110%;
+  padding: 25px;
+  text-align: center;
+  color: #BC8F8F;
+  background: #FFE4E1;
+}
+
+div#content {
+  background-image: linear-gradient(#FFE4E1, white);
+  padding: 50px;
+  height: 155vh;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px #BC8F8F;
+}
+
+h1, h2, h3 {
+  font-family: "Didot";
+  text-transform: uppercase;
+}
+
+div.row {
+  border: double 1px #BC8F8F;
+}
+
+div.col {
+  border: double 25px #BC8F8F;
+}
+
+img {
+  width: 258px;
+  height: 1050px;
+}
+
+a {
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: lowercase;
+  text-decoration: bold;
+  color: #BC8F8F;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.btn-warning {
+  color: #ffffff;
+  background-color: #FFE4E1;
+  border: solid 15px #BC8F8F
+}
